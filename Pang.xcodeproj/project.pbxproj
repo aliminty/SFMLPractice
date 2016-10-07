@@ -13,6 +13,10 @@
 		D9BA666C1D9F6E3B00AB654E /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D9BA666B1D9F6E3B00AB654E /* nice_music.ogg */; };
 		D9BA666E1D9F6E3B00AB654E /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9BA666D1D9F6E3B00AB654E /* sansation.ttf */; };
 		D9BA66701D9F6E3B00AB654E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BA666F1D9F6E3B00AB654E /* icon.png */; };
+		D9BA66941D9F702700AB654E /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9BA66921D9F702700AB654E /* Game.cpp */; };
+		D9BA66961D9F74D800AB654E /* Splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BA66951D9F74D800AB654E /* Splashscreen.png */; };
+		D9BA66991D9F754F00AB654E /* SplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9BA66981D9F754F00AB654E /* SplashScreen.cpp */; };
+		D9BA669B1D9F75A000AB654E /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9BA669A1D9F75A000AB654E /* stdafx.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,13 @@
 		D9BA666B1D9F6E3B00AB654E /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		D9BA666D1D9F6E3B00AB654E /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		D9BA666F1D9F6E3B00AB654E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D9BA66911D9F701A00AB654E /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		D9BA66921D9F702700AB654E /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		D9BA66951D9F74D800AB654E /* Splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splashscreen.png; sourceTree = "<group>"; };
+		D9BA66971D9F750500AB654E /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		D9BA66981D9F754F00AB654E /* SplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScreen.cpp; sourceTree = "<group>"; };
+		D9BA669A1D9F75A000AB654E /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		D9BA669C1D9F75BA00AB654E /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +68,15 @@
 		D9BA66601D9F6E3B00AB654E /* Pang */ = {
 			isa = PBXGroup;
 			children = (
+				D9BA669C1D9F75BA00AB654E /* stdafx.h */,
+				D9BA669A1D9F75A000AB654E /* stdafx.cpp */,
 				D9BA66631D9F6E3B00AB654E /* ResourcePath.mm */,
 				D9BA66651D9F6E3B00AB654E /* ResourcePath.hpp */,
 				D9BA66661D9F6E3B00AB654E /* main.cpp */,
+				D9BA66911D9F701A00AB654E /* Game.h */,
+				D9BA66921D9F702700AB654E /* Game.cpp */,
+				D9BA66971D9F750500AB654E /* SplashScreen.h */,
+				D9BA66981D9F754F00AB654E /* SplashScreen.cpp */,
 				D9BA66681D9F6E3B00AB654E /* Resources */,
 				D9BA66611D9F6E3B00AB654E /* Supporting Files */,
 			);
@@ -77,6 +94,7 @@
 		D9BA66681D9F6E3B00AB654E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9BA66951D9F74D800AB654E /* Splashscreen.png */,
 				D9BA66691D9F6E3B00AB654E /* cute_image.jpg */,
 				D9BA666B1D9F6E3B00AB654E /* nice_music.ogg */,
 				D9BA666D1D9F6E3B00AB654E /* sansation.ttf */,
@@ -143,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BA66701D9F6E3B00AB654E /* icon.png in Resources */,
+				D9BA66961D9F74D800AB654E /* Splashscreen.png in Resources */,
 				D9BA666E1D9F6E3B00AB654E /* sansation.ttf in Resources */,
 				D9BA666C1D9F6E3B00AB654E /* nice_music.ogg in Resources */,
 				D9BA666A1D9F6E3B00AB654E /* cute_image.jpg in Resources */,
@@ -172,8 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BA66991D9F754F00AB654E /* SplashScreen.cpp in Sources */,
+				D9BA66941D9F702700AB654E /* Game.cpp in Sources */,
 				D9BA66671D9F6E3B00AB654E /* main.cpp in Sources */,
 				D9BA66641D9F6E3B00AB654E /* ResourcePath.mm in Sources */,
+				D9BA669B1D9F75A000AB654E /* stdafx.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
