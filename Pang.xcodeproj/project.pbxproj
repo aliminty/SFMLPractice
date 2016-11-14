@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9467EE81DD960C500F4257B /* Mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = D9467EE71DD960C500F4257B /* Mainmenu.png */; };
+		D9AC7BBE1DD9583D00641243 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AC7BBD1DD9583D00641243 /* MainMenu.cpp */; };
 		D9BA66641D9F6E3B00AB654E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9BA66631D9F6E3B00AB654E /* ResourcePath.mm */; };
 		D9BA66671D9F6E3B00AB654E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9BA66661D9F6E3B00AB654E /* main.cpp */; };
 		D9BA666A1D9F6E3B00AB654E /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9BA66691D9F6E3B00AB654E /* cute_image.jpg */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9467EE71DD960C500F4257B /* Mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mainmenu.png; sourceTree = "<group>"; };
+		D9AC7BBD1DD9583D00641243 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		D9AC7BBF1DD9585E00641243 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		D9BA665E1D9F6E3B00AB654E /* Pang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BA66621D9F6E3B00AB654E /* Pang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pang-Info.plist"; sourceTree = "<group>"; };
 		D9BA66631D9F6E3B00AB654E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -77,6 +82,8 @@
 				D9BA66921D9F702700AB654E /* Game.cpp */,
 				D9BA66971D9F750500AB654E /* SplashScreen.h */,
 				D9BA66981D9F754F00AB654E /* SplashScreen.cpp */,
+				D9AC7BBF1DD9585E00641243 /* MainMenu.h */,
+				D9AC7BBD1DD9583D00641243 /* MainMenu.cpp */,
 				D9BA66681D9F6E3B00AB654E /* Resources */,
 				D9BA66611D9F6E3B00AB654E /* Supporting Files */,
 			);
@@ -94,6 +101,7 @@
 		D9BA66681D9F6E3B00AB654E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9467EE71DD960C500F4257B /* Mainmenu.png */,
 				D9BA66951D9F74D800AB654E /* Splashscreen.png */,
 				D9BA66691D9F6E3B00AB654E /* cute_image.jpg */,
 				D9BA666B1D9F6E3B00AB654E /* nice_music.ogg */,
@@ -165,6 +173,7 @@
 				D9BA666E1D9F6E3B00AB654E /* sansation.ttf in Resources */,
 				D9BA666C1D9F6E3B00AB654E /* nice_music.ogg in Resources */,
 				D9BA666A1D9F6E3B00AB654E /* cute_image.jpg in Resources */,
+				D9467EE81DD960C500F4257B /* Mainmenu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BA66991D9F754F00AB654E /* SplashScreen.cpp in Sources */,
+				D9AC7BBE1DD9583D00641243 /* MainMenu.cpp in Sources */,
 				D9BA66941D9F702700AB654E /* Game.cpp in Sources */,
 				D9BA66671D9F6E3B00AB654E /* main.cpp in Sources */,
 				D9BA66641D9F6E3B00AB654E /* ResourcePath.mm in Sources */,
@@ -327,6 +337,7 @@
 				D9BA66751D9F6E3B00AB654E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
